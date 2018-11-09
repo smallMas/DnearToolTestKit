@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9D9A3182195307900DC3262 /* DnearToolTestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D9A30E2195307800DC3262 /* DnearToolTestKit.framework */; };
-		E9D9A31D2195307900DC3262 /* DnearToolTestKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A31C2195307900DC3262 /* DnearToolTestKitTests.m */; };
 		E9D9A31F2195307900DC3262 /* DnearToolTestKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3112195307800DC3262 /* DnearToolTestKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D9A33F2195308C00DC3262 /* NSObject+VTSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A32A2195308C00DC3262 /* NSObject+VTSerialization.m */; };
 		E9D9A3402195308C00DC3262 /* NSString+VTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A32B2195308C00DC3262 /* NSString+VTUtility.m */; };
@@ -32,23 +30,10 @@
 		E9D9A35621954EC200DC3262 /* DTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A35421954EC200DC3262 /* DTPerson.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E9D9A3192195307900DC3262 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E9D9A3052195307800DC3262 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9D9A30D2195307800DC3262;
-			remoteInfo = DnearToolTestKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		E9D9A30E2195307800DC3262 /* DnearToolTestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DnearToolTestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D9A3112195307800DC3262 /* DnearToolTestKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnearToolTestKit.h; sourceTree = "<group>"; };
 		E9D9A3122195307800DC3262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9D9A3172195307900DC3262 /* DnearToolTestKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DnearToolTestKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9D9A31C2195307900DC3262 /* DnearToolTestKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnearToolTestKitTests.m; sourceTree = "<group>"; };
-		E9D9A31E2195307900DC3262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9D9A32A2195308C00DC3262 /* NSObject+VTSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VTSerialization.m"; sourceTree = "<group>"; };
 		E9D9A32B2195308C00DC3262 /* NSString+VTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+VTUtility.m"; sourceTree = "<group>"; };
 		E9D9A32C2195308C00DC3262 /* NSArray+VTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+VTUtility.h"; sourceTree = "<group>"; };
@@ -79,14 +64,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D9A3142195307900DC3262 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9D9A3182195307900DC3262 /* DnearToolTestKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -94,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				E9D9A3102195307800DC3262 /* DnearToolTestKit */,
-				E9D9A31B2195307900DC3262 /* DnearToolTestKitTests */,
 				E9D9A30F2195307800DC3262 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				E9D9A30E2195307800DC3262 /* DnearToolTestKit.framework */,
-				E9D9A3172195307900DC3262 /* DnearToolTestKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,15 +93,6 @@
 				E9D9A35421954EC200DC3262 /* DTPerson.m */,
 			);
 			path = DnearToolTestKit;
-			sourceTree = "<group>";
-		};
-		E9D9A31B2195307900DC3262 /* DnearToolTestKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				E9D9A31C2195307900DC3262 /* DnearToolTestKitTests.m */,
-				E9D9A31E2195307900DC3262 /* Info.plist */,
-			);
-			path = DnearToolTestKitTests;
 			sourceTree = "<group>";
 		};
 		E9D9A3282195308C00DC3262 /* Extension */ = {
@@ -212,24 +178,6 @@
 			productReference = E9D9A30E2195307800DC3262 /* DnearToolTestKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E9D9A3162195307900DC3262 /* DnearToolTestKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9D9A3252195307900DC3262 /* Build configuration list for PBXNativeTarget "DnearToolTestKitTests" */;
-			buildPhases = (
-				E9D9A3132195307900DC3262 /* Sources */,
-				E9D9A3142195307900DC3262 /* Frameworks */,
-				E9D9A3152195307900DC3262 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E9D9A31A2195307900DC3262 /* PBXTargetDependency */,
-			);
-			name = DnearToolTestKitTests;
-			productName = DnearToolTestKitTests;
-			productReference = E9D9A3172195307900DC3262 /* DnearToolTestKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -240,9 +188,6 @@
 				ORGANIZATIONNAME = "燕来秋";
 				TargetAttributes = {
 					E9D9A30D2195307800DC3262 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					E9D9A3162195307900DC3262 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -260,20 +205,12 @@
 			projectRoot = "";
 			targets = (
 				E9D9A30D2195307800DC3262 /* DnearToolTestKit */,
-				E9D9A3162195307900DC3262 /* DnearToolTestKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E9D9A30C2195307800DC3262 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E9D9A3152195307900DC3262 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,23 +237,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D9A3132195307900DC3262 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9D9A31D2195307900DC3262 /* DnearToolTestKitTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E9D9A31A2195307900DC3262 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E9D9A30D2195307800DC3262 /* DnearToolTestKit */;
-			targetProxy = E9D9A3192195307900DC3262 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E9D9A3202195307900DC3262 /* Debug */ = {
@@ -485,38 +406,6 @@
 			};
 			name = Release;
 		};
-		E9D9A3262195307900DC3262 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DnearToolTestKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DnearToolTestKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E9D9A3272195307900DC3262 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DnearToolTestKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DnearToolTestKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -534,15 +423,6 @@
 			buildConfigurations = (
 				E9D9A3232195307900DC3262 /* Debug */,
 				E9D9A3242195307900DC3262 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9D9A3252195307900DC3262 /* Build configuration list for PBXNativeTarget "DnearToolTestKitTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E9D9A3262195307900DC3262 /* Debug */,
-				E9D9A3272195307900DC3262 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
