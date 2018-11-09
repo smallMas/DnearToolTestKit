@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0A582169EAA84DE708FD12E /* libPods-DnearToolTestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4892B4409CA42642F457BAC2 /* libPods-DnearToolTestKit.a */; };
 		E9D9A31F2195307900DC3262 /* DnearToolTestKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3112195307800DC3262 /* DnearToolTestKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D9A33F2195308C00DC3262 /* NSObject+VTSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A32A2195308C00DC3262 /* NSObject+VTSerialization.m */; };
 		E9D9A3402195308C00DC3262 /* NSString+VTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A32B2195308C00DC3262 /* NSString+VTUtility.m */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07FB74D0FF869D0D144B4F0A /* Pods-DnearToolTestKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DnearToolTestKit.release.xcconfig"; path = "../Pods/Target Support Files/Pods-DnearToolTestKit/Pods-DnearToolTestKit.release.xcconfig"; sourceTree = "<group>"; };
+		4892B4409CA42642F457BAC2 /* libPods-DnearToolTestKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DnearToolTestKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D9A30E2195307800DC3262 /* DnearToolTestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DnearToolTestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9D9A3112195307800DC3262 /* DnearToolTestKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnearToolTestKit.h; sourceTree = "<group>"; };
 		E9D9A3122195307800DC3262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		E9D9A33E2195308C00DC3262 /* UIView+VTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VTUtility.h"; sourceTree = "<group>"; };
 		E9D9A35321954EC200DC3262 /* DTPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTPerson.h; sourceTree = "<group>"; };
 		E9D9A35421954EC200DC3262 /* DTPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTPerson.m; sourceTree = "<group>"; };
+		FE058079F861471D304B8C94 /* Pods-DnearToolTestKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DnearToolTestKit.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-DnearToolTestKit/Pods-DnearToolTestKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A582169EAA84DE708FD12E /* libPods-DnearToolTestKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		242DDF49EB94AA8B5BF732F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE058079F861471D304B8C94 /* Pods-DnearToolTestKit.debug.xcconfig */,
+				07FB74D0FF869D0D144B4F0A /* Pods-DnearToolTestKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C77648A13A372DDEAEC6E3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4892B4409CA42642F457BAC2 /* libPods-DnearToolTestKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9D9A3042195307800DC3262 = {
 			isa = PBXGroup;
 			children = (
 				E9D9A3102195307800DC3262 /* DnearToolTestKit */,
 				E9D9A30F2195307800DC3262 /* Products */,
+				242DDF49EB94AA8B5BF732F6 /* Pods */,
+				9C77648A13A372DDEAEC6E3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +188,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9D9A3222195307900DC3262 /* Build configuration list for PBXNativeTarget "DnearToolTestKit" */;
 			buildPhases = (
+				C2B31D7195D01210E3664B53 /* [CP] Check Pods Manifest.lock */,
 				E9D9A3092195307800DC3262 /* Headers */,
 				E9D9A30A2195307800DC3262 /* Sources */,
 				E9D9A30B2195307800DC3262 /* Frameworks */,
@@ -218,6 +243,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2B31D7195D01210E3664B53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DnearToolTestKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E9D9A30A2195307800DC3262 /* Sources */ = {
@@ -360,6 +410,7 @@
 		};
 		E9D9A3232195307900DC3262 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE058079F861471D304B8C94 /* Pods-DnearToolTestKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -384,6 +435,7 @@
 		};
 		E9D9A3242195307900DC3262 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FB74D0FF869D0D144B4F0A /* Pods-DnearToolTestKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
