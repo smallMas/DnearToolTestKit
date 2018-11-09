@@ -12,24 +12,24 @@
 		E9D9A31F2195307900DC3262 /* DnearToolTestKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3112195307800DC3262 /* DnearToolTestKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D9A33F2195308C00DC3262 /* NSObject+VTSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A32A2195308C00DC3262 /* NSObject+VTSerialization.m */; };
 		E9D9A3402195308C00DC3262 /* NSString+VTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A32B2195308C00DC3262 /* NSString+VTUtility.m */; };
-		E9D9A3412195308C00DC3262 /* NSArray+VTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A32C2195308C00DC3262 /* NSArray+VTUtility.h */; };
+		E9D9A3412195308C00DC3262 /* NSArray+VTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A32C2195308C00DC3262 /* NSArray+VTUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D9A3422195308C00DC3262 /* NSDictionary+VTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A32D2195308C00DC3262 /* NSDictionary+VTUtility.m */; };
 		E9D9A3432195308C00DC3262 /* NSArray+VTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A32E2195308C00DC3262 /* NSArray+VTUtility.m */; };
-		E9D9A3442195308C00DC3262 /* NSString+VTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A32F2195308C00DC3262 /* NSString+VTUtility.h */; };
-		E9D9A3452195308C00DC3262 /* NSObject+VTSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3302195308C00DC3262 /* NSObject+VTSerialization.h */; };
-		E9D9A3462195308C00DC3262 /* NSDictionary+VTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3312195308C00DC3262 /* NSDictionary+VTUtility.h */; };
+		E9D9A3442195308C00DC3262 /* NSString+VTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A32F2195308C00DC3262 /* NSString+VTUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D9A3452195308C00DC3262 /* NSObject+VTSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3302195308C00DC3262 /* NSObject+VTSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D9A3462195308C00DC3262 /* NSDictionary+VTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3312195308C00DC3262 /* NSDictionary+VTUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D9A3472195308C00DC3262 /* UILabel+DNUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A3332195308C00DC3262 /* UILabel+DNUtility.m */; };
 		E9D9A3482195308C00DC3262 /* UIColor+VmExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A3342195308C00DC3262 /* UIColor+VmExt.m */; };
 		E9D9A3492195308C00DC3262 /* UIView+VTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A3352195308C00DC3262 /* UIView+VTUtility.m */; };
-		E9D9A34A2195308C00DC3262 /* UIImageView+VTUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3362195308C00DC3262 /* UIImageView+VTUtil.h */; };
-		E9D9A34B2195308C00DC3262 /* UIViewController+VTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3372195308C00DC3262 /* UIViewController+VTUtility.h */; };
-		E9D9A34C2195308C00DC3262 /* UIButton+DNUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3382195308C00DC3262 /* UIButton+DNUtility.h */; };
-		E9D9A34D2195308C00DC3262 /* UILabel+DNUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3392195308C00DC3262 /* UILabel+DNUtility.h */; };
-		E9D9A34E2195308C00DC3262 /* UIColor+VmExt.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A33A2195308C00DC3262 /* UIColor+VmExt.h */; };
+		E9D9A34B2195308C00DC3262 /* UIViewController+VTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3372195308C00DC3262 /* UIViewController+VTUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D9A34C2195308C00DC3262 /* UIButton+DNUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3382195308C00DC3262 /* UIButton+DNUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D9A34D2195308C00DC3262 /* UILabel+DNUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A3392195308C00DC3262 /* UILabel+DNUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D9A34E2195308C00DC3262 /* UIColor+VmExt.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A33A2195308C00DC3262 /* UIColor+VmExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9D9A34F2195308C00DC3262 /* UIButton+DNUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A33B2195308C00DC3262 /* UIButton+DNUtility.m */; };
 		E9D9A3502195308C00DC3262 /* UIViewController+VTUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A33C2195308C00DC3262 /* UIViewController+VTUtility.m */; };
-		E9D9A3512195308C00DC3262 /* UIImageView+VTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A33D2195308C00DC3262 /* UIImageView+VTUtil.m */; };
-		E9D9A3522195308C00DC3262 /* UIView+VTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A33E2195308C00DC3262 /* UIView+VTUtility.h */; };
+		E9D9A3522195308C00DC3262 /* UIView+VTUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A33E2195308C00DC3262 /* UIView+VTUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D9A35521954EC200DC3262 /* DTPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D9A35321954EC200DC3262 /* DTPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9D9A35621954EC200DC3262 /* DTPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D9A35421954EC200DC3262 /* DTPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,15 +60,15 @@
 		E9D9A3332195308C00DC3262 /* UILabel+DNUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DNUtility.m"; sourceTree = "<group>"; };
 		E9D9A3342195308C00DC3262 /* UIColor+VmExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VmExt.m"; sourceTree = "<group>"; };
 		E9D9A3352195308C00DC3262 /* UIView+VTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VTUtility.m"; sourceTree = "<group>"; };
-		E9D9A3362195308C00DC3262 /* UIImageView+VTUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+VTUtil.h"; sourceTree = "<group>"; };
 		E9D9A3372195308C00DC3262 /* UIViewController+VTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+VTUtility.h"; sourceTree = "<group>"; };
 		E9D9A3382195308C00DC3262 /* UIButton+DNUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DNUtility.h"; sourceTree = "<group>"; };
 		E9D9A3392195308C00DC3262 /* UILabel+DNUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DNUtility.h"; sourceTree = "<group>"; };
 		E9D9A33A2195308C00DC3262 /* UIColor+VmExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VmExt.h"; sourceTree = "<group>"; };
 		E9D9A33B2195308C00DC3262 /* UIButton+DNUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DNUtility.m"; sourceTree = "<group>"; };
 		E9D9A33C2195308C00DC3262 /* UIViewController+VTUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+VTUtility.m"; sourceTree = "<group>"; };
-		E9D9A33D2195308C00DC3262 /* UIImageView+VTUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+VTUtil.m"; sourceTree = "<group>"; };
 		E9D9A33E2195308C00DC3262 /* UIView+VTUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VTUtility.h"; sourceTree = "<group>"; };
+		E9D9A35321954EC200DC3262 /* DTPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTPerson.h; sourceTree = "<group>"; };
+		E9D9A35421954EC200DC3262 /* DTPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +114,8 @@
 				E9D9A3282195308C00DC3262 /* Extension */,
 				E9D9A3112195307800DC3262 /* DnearToolTestKit.h */,
 				E9D9A3122195307800DC3262 /* Info.plist */,
+				E9D9A35321954EC200DC3262 /* DTPerson.h */,
+				E9D9A35421954EC200DC3262 /* DTPerson.m */,
 			);
 			path = DnearToolTestKit;
 			sourceTree = "<group>";
@@ -139,14 +141,14 @@
 		E9D9A3292195308C00DC3262 /* NSUtility */ = {
 			isa = PBXGroup;
 			children = (
-				E9D9A32A2195308C00DC3262 /* NSObject+VTSerialization.m */,
-				E9D9A32B2195308C00DC3262 /* NSString+VTUtility.m */,
 				E9D9A32C2195308C00DC3262 /* NSArray+VTUtility.h */,
-				E9D9A32D2195308C00DC3262 /* NSDictionary+VTUtility.m */,
 				E9D9A32E2195308C00DC3262 /* NSArray+VTUtility.m */,
-				E9D9A32F2195308C00DC3262 /* NSString+VTUtility.h */,
-				E9D9A3302195308C00DC3262 /* NSObject+VTSerialization.h */,
 				E9D9A3312195308C00DC3262 /* NSDictionary+VTUtility.h */,
+				E9D9A32D2195308C00DC3262 /* NSDictionary+VTUtility.m */,
+				E9D9A3302195308C00DC3262 /* NSObject+VTSerialization.h */,
+				E9D9A32A2195308C00DC3262 /* NSObject+VTSerialization.m */,
+				E9D9A32F2195308C00DC3262 /* NSString+VTUtility.h */,
+				E9D9A32B2195308C00DC3262 /* NSString+VTUtility.m */,
 			);
 			path = NSUtility;
 			sourceTree = "<group>";
@@ -154,18 +156,16 @@
 		E9D9A3322195308C00DC3262 /* UIUtility */ = {
 			isa = PBXGroup;
 			children = (
-				E9D9A3332195308C00DC3262 /* UILabel+DNUtility.m */,
-				E9D9A3342195308C00DC3262 /* UIColor+VmExt.m */,
-				E9D9A3352195308C00DC3262 /* UIView+VTUtility.m */,
-				E9D9A3362195308C00DC3262 /* UIImageView+VTUtil.h */,
-				E9D9A3372195308C00DC3262 /* UIViewController+VTUtility.h */,
 				E9D9A3382195308C00DC3262 /* UIButton+DNUtility.h */,
-				E9D9A3392195308C00DC3262 /* UILabel+DNUtility.h */,
-				E9D9A33A2195308C00DC3262 /* UIColor+VmExt.h */,
 				E9D9A33B2195308C00DC3262 /* UIButton+DNUtility.m */,
-				E9D9A33C2195308C00DC3262 /* UIViewController+VTUtility.m */,
-				E9D9A33D2195308C00DC3262 /* UIImageView+VTUtil.m */,
+				E9D9A33A2195308C00DC3262 /* UIColor+VmExt.h */,
+				E9D9A3342195308C00DC3262 /* UIColor+VmExt.m */,
+				E9D9A3392195308C00DC3262 /* UILabel+DNUtility.h */,
+				E9D9A3332195308C00DC3262 /* UILabel+DNUtility.m */,
 				E9D9A33E2195308C00DC3262 /* UIView+VTUtility.h */,
+				E9D9A3352195308C00DC3262 /* UIView+VTUtility.m */,
+				E9D9A3372195308C00DC3262 /* UIViewController+VTUtility.h */,
+				E9D9A33C2195308C00DC3262 /* UIViewController+VTUtility.m */,
 			);
 			path = UIUtility;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 				E9D9A34D2195308C00DC3262 /* UILabel+DNUtility.h in Headers */,
 				E9D9A3522195308C00DC3262 /* UIView+VTUtility.h in Headers */,
 				E9D9A34B2195308C00DC3262 /* UIViewController+VTUtility.h in Headers */,
-				E9D9A34A2195308C00DC3262 /* UIImageView+VTUtil.h in Headers */,
+				E9D9A35521954EC200DC3262 /* DTPerson.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +290,8 @@
 				E9D9A3492195308C00DC3262 /* UIView+VTUtility.m in Sources */,
 				E9D9A3402195308C00DC3262 /* NSString+VTUtility.m in Sources */,
 				E9D9A34F2195308C00DC3262 /* UIButton+DNUtility.m in Sources */,
+				E9D9A35621954EC200DC3262 /* DTPerson.m in Sources */,
 				E9D9A3422195308C00DC3262 /* NSDictionary+VTUtility.m in Sources */,
-				E9D9A3512195308C00DC3262 /* UIImageView+VTUtil.m in Sources */,
 				E9D9A33F2195308C00DC3262 /* NSObject+VTSerialization.m in Sources */,
 				E9D9A3432195308C00DC3262 /* NSArray+VTUtility.m in Sources */,
 				E9D9A3482195308C00DC3262 /* UIColor+VmExt.m in Sources */,
@@ -453,6 +453,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DnearToolTestKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -476,6 +477,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.DnearToolTestKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
